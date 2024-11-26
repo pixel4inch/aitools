@@ -1,0 +1,235 @@
+{
+    "CSS": [
+        {
+            "id": 1,
+            "utubelink": "https://www.youtube.com/embed/Jo6jqYOG5SM?si=yMy1t-8neTZeV2AE",
+            "title": "The Power of CSS When Combination of Not And Hover Selectors",
+            "status": "done"
+        },
+        {
+            "id": 2,
+            "utubelink": "https://www.youtube.com/embed/UmzFk68Bwdk?si=WcOKPhyAzwu5oaOh",
+            "title": "Incredible scroll-based animations with CSS-only",
+            "status": ""
+        },
+        {
+            "id": 3,
+            "utubelink": "https://www.youtube.com/embed/pFtxR-O78sY?si=WIxqmXinOnGfkYVj",
+            "title": "Crazy Scroll Animation Using CSS Only",
+            "status": ""
+        },
+        {
+            "id": 4,
+            "utubelink": "https://www.youtube.com/embed/P80sM7ausCA?si=e2jND3XRXTSUb6vh",
+            "title": "Crazy CSS Using By Master CSS",
+            "status": ""
+        },
+        {
+            "id": 5,
+            "utubelink": "https://www.youtube.com/embed/Reu0hHbis5w?si=yiVoVW67BWwqxTEe",
+            "title": "You Don't Need JavaScript For This - CSS ONLY Infinite Scroll",
+            "status": ""
+        },
+        {
+            "id": 6,
+            "utubelink": "https://www.youtube.com/embed/mF9yOwlunWk?si=Wa4rIatgJQjTuo9F",
+            "title": "Play and Pause in Infinite Slider with CSS Only",
+            "status": ""
+        },
+        {
+            "id": 7,
+            "utubelink": "https://www.youtube.com/embed/2l99ERCnB9c?si=S26hbfNvQyqKBjeU",
+            "title": "Infinite Scrolling Animation | CSS Only Text and Image Carousel",
+            "status": ""
+        },
+        {
+            "id": 8,
+            "utubelink": "https://www.youtube.com/embed/ihfRJ-2_d5w?si=gI981lQfOxQRE0Vc",
+            "title": "Teleport To The Future in CSS Animation With Animation-Delay",
+            "status": ""
+        },
+        {
+            "id": 9,
+            "utubelink": "https://www.youtube.com/embed/liW6bDLnuuk?si=5eaaLBFIRApbp9RA",
+            "title": "Smooth Animated Blob using CSS & SVG | Html CSS Blobs Animation Effects",
+            "status": ""
+        },
+        {
+            "id": 10,
+            "utubelink": "https://www.youtube.com/embed/icgbxlqf9Kc?si=OUR89Xn2hTRt6irh",
+            "title": "Pure CSS 3D Animated Background Effects | Quick CSS Tips and Tricks",
+            "status": ""
+        },
+        {
+            "id": 11,
+            "utubelink": "https://www.youtube.com/embed/icgbxlqf9Kc?si=OUR89Xn2hTRt6irh",
+            "title": "Pure CSS 3D Animated Background Effects | Quick CSS Tips and Tricks",
+            "status": ""
+        },
+        {
+            "id": 12,
+            "utubelink": "https://www.youtube.com/embed/r0sE2EtKV-c?si=RCwpq5eVhoZF9otz",
+            "title": "Scroll-Driven Animations Debugger 1.0.0",
+            "status": ""
+        },
+        {
+            "id": 11,
+            "utubelink": "https://www.youtube.com/embed/icgbxlqf9Kc?si=OUR89Xn2hTRt6irh",
+            "title": "Variables in CSS - Level Up variables with Propery",
+            "status": ""
+        },
+        {
+            "id": 12,
+            "utubelink": "https://www.youtube.com/embed/Xc6G3oV24yE?si=MdBddTCWVqzevm7m",
+            "title": "Top 10 CSS One Liners That Will Blow Your Mind",
+            "status": ""
+        }
+    ],
+
+    "GSAP": [
+        {
+            "id": 1,
+            "utubelink": "https://www.youtube.com/embed/UwNERAV-OiU?si=Ol0Y__f9VgTNqqlO",
+            "title": "When Parallax Effect Met Horizontal Scroll (GSAP & ScrollTrigger)",
+            "status": ""
+        },
+        {
+            "id": 2,
+            "utubelink": "https://www.youtube.com/embed/EDzJrYInOpY?si=ZKzHuNb9rAv1xBx1",
+            "title": "Make Scrolling Irresistible With This Image Reveal Animation",
+            "status": ""
+        },
+        {
+            "id": 3,
+            "utubelink": "https://www.youtube.com/embed/1iVRHjreOUI?si=pKPm6YOuOI-3Py5F",
+            "title": "Mind-Bending Scroll Animations With GSAP & ScrollTrigger",
+            "status": ""
+        },
+        {
+            "id": 4,
+            "utubelink": "https://www.youtube.com/embed/du3AbBEcwgM?si=K5gTR6M7ArfTu__f",
+            "title": "Build An Awesome Modern Animation Website with HTML, CSS & JS | Master GSAP!",
+            "status": ""
+        },
+        {
+            "id": 5,
+            "utubelink": "https://www.youtube.com/embed/CQHvWqYXI5s?si=0sFegaQPBRHtypbM",
+            "title": "GSAP ScrollTrigger Responsive Split Screen Pinning",
+            "status": ""
+        },
+        {
+            "id": 6,
+            "utubelink": "https://www.youtube.com/embed/SAcDG6oZfqo?si=bxiIGQhUdh-9Lc_D",
+            "title": "Creating a Stunning Image Gallery with GSAP and SVG Filters | Parallax Slider",
+            "status": ""
+        },
+        {
+            "id": 7,
+            "utubelink": "https://www.youtube.com/embed/P3fHboyHvkg?si=tDp0LMCdCXzfUFer",
+            "title": "[GAMECHANGER ] Create Modern Landing Page with HTML CSS JS | Shery.js Launch ",
+            "status": ""
+        },
+        {
+            "id": 8,
+            "utubelink": "https://www.youtube.com/embed/vqXLGX0szIQ?si=QgDkctX-bpLhoJkP",
+            "title": "Motion Design for the Web | FREE COURSE ",
+            "status": ""
+        }
+    ],
+
+    "MORDENTEMPLATES": [
+        {
+            "id": 1,
+            "weblink": "https://www.blimp.gr/genres/",
+            "title": "THE BLIMP",
+            "description": ""
+        },
+        {
+            "id": 1,
+            "weblink": "https://cosmicshelter.com/",
+            "title": "COSMIC SHELTER",
+            "description": ""
+        },
+        {
+            "id": 1,
+            "weblink": "https://www.accordion.net.au/",
+            "title": "ACCORDION",
+            "description": ""
+        },
+        {
+            "id": 1,
+            "weblink": "https://makepill.com/en",
+            "title": "Make Pill",
+            "description": ""
+        }
+    ],
+
+    "AITOOLS": [
+        {
+            "id": 1,
+            "weblink": "https://www.relume.io/",
+            "title": "Relume",
+            "description": "Websites designed &amp; built faster with AI, Use AI as your design ally, not as a replacement. Effortlessly generate sitemaps and wireframes for marketing websites in minutes.",
+            "category":"sitemap"
+        },
+
+        {
+            "id": 2,
+            "weblink": "https://slater.app/",
+            "title": "Slater",
+            "category":"script",
+            "description": "The scripting layer for Webflow powered by AI!"
+        },
+
+
+        {
+            "id": 3,
+            "weblink": "https://www.midjourney.com/",
+            "title": "Midjourney",
+            "category":"Image",
+            "description": "Imagine AI Art Generator"
+        },
+
+
+        {
+            "id": 4,
+            "weblink": "https://openai.com/index/dall-e-3/",
+            "title": "Chat GPT dall-E",
+            "category":"Image",
+            "description": "DALL·E 3 understands significantly more nuance and detail than our previous systems, allowing you to easily translate your ideas into exceptionally accurate images."
+        },
+
+
+        {
+            "id": 5,
+            "weblink": "https://magnific.ai/",
+            "title": "Magnific",
+            "category":"Image",
+            "description": "The most advanced AI tech to achieve insanely high-res upscaling. Not only upscale, enhance & transform! Magnific can reimagine as many details as you wish guided by your own prompt and parameters!"
+        },
+
+
+        {
+            "id": 6,
+            "weblink": "https://www.framer.com/pricing/?utm_source=google&utm_medium=adwords&utm_campaign=Demand-Gen-Video-M-Aug2024-PUBLISH_&utm_source=google&utm_medium=cpc&utm_campaign=21544931734&utm_term=&utm_content=708030401904&utm_id=168476385071&gclid=CjwKCAjwodC2BhAHEiwAE67hJKkDyieUN6Ropsors0mrTSEV-IiNV7GyNP7RYLkqa5yi9mGLJXcQvRoCNFwQAvD_BwE",
+            "title": "framer",
+            "category":"Image",
+            "description": "Design beautiful responsive sites with an intuitive interface."
+        },
+        {
+            "id": 7,
+            "weblink": "https://www.dora.run/",
+            "title": "Dora",
+            "category":"Image",
+            "description": "3d Generate a site for any idea"
+        }
+    ],
+    "REACTJS": [
+        {
+            "id": 1,
+            "weblink": "https://www.youtube.com/embed/AZXYSlxj0vU?si=YE32Cl2fpRGe_BHI",
+            "title": "ReactJS | Modern Animated Website | OCHI DESIGN | Awwwarded Website Clone",
+            "description": ""
+        }
+    ]
+}
