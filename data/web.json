@@ -1,0 +1,37 @@
+{
+    "WEBTOOLS": [
+        
+        {
+            "id": 1,
+            "weblink": "https://www.dora.run/",
+            "title": "Dora",
+            "category":"3D WebSite",
+            "description": "3d Generate a site for any idea"
+        },
+        {
+            "id": 2,
+            "weblink": "https://colourcontrast.cc/",
+            "title": "Colour Contrast",
+            "category":"Colors",
+            "description": "Colour contrast checker for generate contrast text on background"
+        },
+        {
+            "id": 3,
+            "weblink": "https://coolors.co/contrast-checker/ffffff-000000",
+            "title": "coolors co",
+            "category":"Colors",
+            "description": "Create the perfect palette or get inspired by thousands of beautiful color schemes."
+        },
+        {
+            "id": 4,
+            "weblink": "https://pictographic.io/",
+            "title": "Pictographic",
+            "category":"Vector Illustrations",
+            "description": "Pictographic has 150,000+ illustrations over 10 styles that you can use for your design"
+        }
+
+
+
+    ]
+    
+}

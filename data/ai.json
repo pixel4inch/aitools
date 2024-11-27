@@ -50,21 +50,9 @@
             "title": "framer",
             "category":"WebPage Generator",
             "description": "Design beautiful responsive sites with an intuitive interface."
-        },
-        {
-            "id": 7,
-            "weblink": "https://www.dora.run/",
-            "title": "Dora",
-            "category":"3D WebSite",
-            "description": "3d Generate a site for any idea"
-        },
-        {
-            "id": 8,
-            "weblink": "https://colourcontrast.cc/",
-            "title": "Colour Contrast",
-            "category":"Colors",
-            "description": "Colour contrast checker for generate contrast text on background"
         }
+       
+
 
 
     ]

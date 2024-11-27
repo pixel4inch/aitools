@@ -95,8 +95,8 @@
                 let originalData = []; // To store original data
             
                 // Fetch the JSON data
-                $.getJSON("./data/ai.json", function (data) {
-                    originalData = data.AITOOLS; // Store the fetched data
+                $.getJSON("./data/figma.json", function (data) {
+                    originalData = data.FIGMATOOLS; // Store the fetched data
                     renderList(originalData); // Render the full list initially
                 }).fail(function () {
                     document.write("An error has occurred.");
@@ -147,7 +147,7 @@
 
         <script>
             // Fetch JSON data and populate select
-            fetch('./data/ai.json')
+            fetch('./data/figma.json')
                 .then(response => {
                     if (!response.ok) {
                         throw new Error('Network response was not ok');
@@ -155,7 +155,7 @@
                     return response.json();
                 })
                 .then(data => {
-                    populateSelect(data.AITOOLS);
+                    populateSelect(data.FIGMATOOLS);
                 })
                 .catch(error => {
                     console.error('Error fetching JSON:', error);
