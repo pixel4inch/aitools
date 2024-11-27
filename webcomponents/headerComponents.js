@@ -23,6 +23,7 @@ class HeaderComponent extends HTMLElement {
             <a class="nav-link active" href="index.html">AI </a>
             <a class="nav-link" href="figma.html">FIGMA</a>
             <a class="nav-link" href="web.html">WEB</a>
+             <a class="nav-link" href="uiux.html">UI/UX</a>
           
         </div>
     </main>
@@ -52,12 +53,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 // Check if the clicked element is a link
                 const clickedLink = event.target.closest('.nav-link');
                 if (clickedLink) {
-                    // Remove 'active' class from all links
-                    const links = toplinks.querySelectorAll('.nav-link');
-                    links.forEach(link => link.classList.remove('active'));
+                    
 
                     // Add 'active' class to the clicked link
                     clickedLink.classList.add('active');
+                    // Remove 'active' class from all links
+                    const links = toplinks.querySelectorAll('.nav-link');
+                    links.forEach(link => link.classList.remove('active'));
                 }
             });
         }
