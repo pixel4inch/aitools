@@ -28,7 +28,29 @@
             "title": "Pictographic",
             "category":"Vector Illustrations",
             "description": "Pictographic has 150,000+ illustrations over 10 styles that you can use for your design"
+        },
+        {
+            "id": 4,
+            "weblink": "https://www.remove.bg/",
+            "title": "Remove Bg",
+            "category":"Bg Remove",
+            "description": "Remove Image Background"
+        },
+        {
+            "id": 4,
+            "weblink": "https://fontjoy.com/",
+            "title": "Font Joy",
+            "category":"Fonts",
+            "description": "Generate font combinations with deep learning"
+        },
+        {
+            "id": 4,
+            "weblink": "https://www.khroma.co/",
+            "title": "KHROMA",
+            "category":"Colors",
+            "description": "Khroma uses AI to learn which colors you like and creates limitless palettes for you to discover, search, and save."
         }
+
 
 
 
