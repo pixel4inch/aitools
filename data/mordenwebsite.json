@@ -1,0 +1,23 @@
+{
+    "WEBSITETOOLS": [
+        {
+            "id": 1,
+            "weblink": "https://upperquad.com/services",
+            "title": "Upper QUAD",
+            "description": "website ",
+            "category":"Website"
+        },
+        {
+            "id": 2,
+            "weblink": "https://okcest.cool/",
+            "title": "okcest",
+            "description": "The world has new playgrounds of creativity. We help brands define strategies and craft experiences at the intersection of emerging technologies, cultures ands communities.",
+            "category":"Website"
+        },
+        {
+            "id": 3,
+            "weblink": "https://httpster.net/",
+            "title": "HTTPSTER",
+            "description": "Web design inspiration from all over the world",
+            "category":"Website"
+        }

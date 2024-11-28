@@ -43,13 +43,47 @@
             "category":"Fonts",
             "description": "Generate font combinations with deep learning"
         },
+        
         {
-            "id": 4,
+            "id": 5,
+            "weblink": "https://www.monotype.com/font-pairing#/explore",
+            "title": "MONOTYPE",
+            "category":"Fonts",
+            "description": "Generate font combinations"
+        },
+
+        {
+            "id": 6,
+            "weblink": "https://www.fontpair.co/all",
+            "title": "Font Pair",
+            "category":"Fonts",
+            "description": "Try these free Google Font pairings"
+        },
+        {
+            "id": 7,
             "weblink": "https://www.khroma.co/",
             "title": "KHROMA",
             "category":"Colors",
             "description": "Khroma uses AI to learn which colors you like and creates limitless palettes for you to discover, search, and save."
+        },
+
+        {
+            "id": 7,
+            "weblink": "https://uicolors.app/create",
+            "title": "UI COLORS",
+            "category":"Colors",
+            "description": "Tailwind CSS Color Generator"
+        },
+        {
+            "id": 7,
+            "weblink": "https://pigment.shapefactory.co/",
+            "title": "PIGMENT",
+            "category":"Colors",
+            "description": "2 Contrast colors "
         }
+
+
+
 
 
 

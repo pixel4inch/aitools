@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>WebCraft Tools</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="./css/main.css" />
+    <style>
+        #tubevideo {
+            width: calc(100% - 4px);
+            height: calc(100% - 5px)/2;
+            border-radius: 10px;
+            box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
+            margin: 0 auto;
+        }
+
+        .card {
+            width: calc(100% /5);
+            padding-top: 15px;
+        }
+
+        .card.done {
+            border: green solid 3px !important;
+        }
+    </style>
+
+</head>
+
+<body>
+   
+    <header-component></header-component>
+    
+
+ 
+        <!-- Fixed navbar -->
+       
+
+    <main class=" mt-0 p-2 h-100">
+
+        <div class="d-flex justify-content-start">
+            <!-- Nav tabs -->
+            
+            <!-- Tab panes -->
+            <div class="container p-2">
+               
+                <div class="tab-pane active" id="aitools" role="tabpanel" aria-labelledby="template-tab">
+                    <h5 class="text-center fw-bolder my-3">AI TOOLS FOR UI DEVELOPMENT AND DESIGN </h5>
+                    
+                   
+                        <fieldset class="shadow-sm border p-3 my-4 w-100 d-flex justify-content-center align-items-center">
+                          
+                            <div class="mb-0 " style="flex-grow:1">
+                              <input type="text" id="disabledTextInput" class="p-3 rounded-0 form-control w-100" placeholder="SEARCH BY AI TOOL OR CATEGORY">
+                            </div>
+                            <!--div class="mb-0">
+                              
+                                <select id="disabledSelect" class="form-select p-3 rounded-0">
+                                    <option>Select</option>
+                                </select>
+                            </!--div-->
+                           
+                          </fieldset>
+                   
+                    
+                    <ol class="row mx-4 d-flex justify-content-start align-items-center flex-wrap unorder-list" id="aitoolsblock" style="gap: 0px;">
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <!-- place footer here -->
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    
+    <script src="./webcomponents/headerComponents.js"></script>
+       
+       
+        <script>
+            $(document).ready(function () {
+                let originalData = []; // To store original data
+            
+                // Fetch the JSON data
+                $.getJSON("./data/mordenwebsite.json", function (data) {
+                    originalData = data.WEBSITETOOLS; // Store the fetched data
+                    renderList(originalData); // Render the full list initially
+                }).fail(function () {
+                    document.write("An error has occurred.");
+                });
+            
+                // Function to render the list
+                function renderList(data) {
+                    let output = '';
+                    $.each(data, function (key, value) {
+                        output += `
+                            <li class="w-100 border-bottom px-3">
+                                <div class="d-flex justify-content-start align-items-start">
+                                    <a href="${value.weblink}" target="_blank" class="text-dark">${value.title}</a>
+                                    <span class="badge bg-warning text-dark mx-2 p-2 rounded-0" style="display: flex; justify-content: center; align-items: center;
+                                    "><small>${value.category}</small></span>
+                                </div>
+                                <!---p>${value.description}</p--->
+                            </li>
+                        `;
+                    });
+                    $('#aitoolsblock').html(output);
+                }
+            
+                // Function to filter data
+                function filterData() {
+                    const searchTerm = $('#disabledTextInput').val().toLowerCase(); // Get search term
+                    const selectedCategory = $('#disabledSelect').val().toLowerCase(); // Get selected dropdown value
+            
+                    // Filter the original data based on search term and dropdown selection
+                    const filteredData = originalData.filter(item => {
+                        const matchesSearch = item.title.toLowerCase().includes(searchTerm) || 
+                                              item.category.toLowerCase().includes(searchTerm);
+                        const matchesCategory = selectedCategory === "select" || 
+                                                item.category.toLowerCase() === selectedCategory;
+                        return matchesSearch && matchesCategory;
+                    });
+            
+                    renderList(filteredData); // Render the filtered list
+                }
+            
+                // Event listeners for filtering
+                $('#disabledTextInput').on('input', filterData); // Filter when typing in the search box
+                $('#disabledSelect').on('change', filterData); // Filter when selecting dropdown
+            });
+        </script>
+
+
+
+        <script>
+            // Fetch JSON data and populate select
+            fetch('./data/mordenwebsite.json')
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok');
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    populateSelect(data.WEBSITETOOLS);
+                })
+                .catch(error => {
+                    console.error('Error fetching JSON:', error);
+                });
+    
+            function populateSelect(items) {
+                const selectElement = document.getElementById('disabledSelect');
+                const uniqueCategories = [...new Set(items.map(item => item.category))];
+    
+                uniqueCategories.forEach(category => {
+                    const option = document.createElement('option');
+                    option.value = category;
+                    option.textContent = category;
+                    selectElement.appendChild(option);
+                });
+            }
+        </script>
+        
+</body>
+
+
+
+</html>
