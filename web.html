@@ -112,12 +112,13 @@
                     $.each(data, function (key, value) {
                         output += `
                             <li class="w-100 border-bottom px-3">
-                                <div class="d-flex justify-content-start align-items-start">
+                                
+                                <div class="d-flex justify-content-start align-items-start position-relative">
                                     <a href="${value.weblink}" target="_blank" class="text-dark">${value.title}</a>
-                                    <span class="badge bg-warning text-dark mx-2 p-2 rounded-0" style="display: flex; justify-content: center; align-items: center;
-                                    "><small>${value.category}</small></span>
+                                    
                                 </div>
                                 <p>${value.description}</p>
+                                <span class="badge bg-warning text-dark  p-1 rounded-1" style="margin-bottom: 8px !important;user-select: text;"><small>${value.category}</small></span>
                             </li>
                         `;
                     });

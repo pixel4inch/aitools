@@ -6,10 +6,17 @@
             "title": "UI Design Principles",
             "description": "list of the top UI design principles that capture some of the most interesting faces of digital design. Check them out!",
             "category":"UI/UX Principles"
+        },
+        {
+            "id": 2,
+            "weblink": "https://www.uxpeak.com/",
+            "title": "UX PEAK",
+            "description": "Top online UI/UX design course designed to jumpstart your career and teach you how to design beautiful apps and websites that users love.",
+            "category":"UI/UX Principles"
         }
 
         
-
+        
 
 
     ]
