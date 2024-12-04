@@ -30,6 +30,10 @@
         }
     </style>
 
+
+   
+    
+
 </head>
 
 <body>
@@ -50,7 +54,7 @@
             <div class="container p-2">
                
                 <div class="tab-pane active" id="aitools" role="tabpanel" aria-labelledby="template-tab">
-                    <h5 class="text-center fw-bolder my-3">FIGMA PLUGINS FOR UI/UX DESIGN </h5>
+                    <h5 class="text-center fw-bolder my-3">ONLINE TOOLS FOR DEVELOPMENT AND DESIGN </h5>
                     
                    
                         <fieldset class="shadow-sm border p-3 my-4 w-100 d-flex justify-content-center align-items-center">
@@ -95,8 +99,8 @@
                 let originalData = []; // To store original data
             
                 // Fetch the JSON data
-                $.getJSON("./data/figma.json", function (data) {
-                    originalData = data.FIGMATOOLS; // Store the fetched data
+                $.getJSON("./data/design.json", function (data) {
+                    originalData = data.DESIGNTOOLS; // Store the fetched data
                     renderList(originalData); // Render the full list initially
                 }).fail(function () {
                     document.write("An error has occurred.");
@@ -109,9 +113,8 @@
                         output += `
                             <li class="w-100 border-bottom px-3">
                                 
-                                <div class="d-flex justify-content-start align-items-start position-relative ">
+                                <div class="d-flex justify-content-start align-items-start position-relative">
                                     <a href="${value.weblink}" target="_blank" class="text-dark">${value.title}</a>
-                                   
                                 </div>
                                 <p>${value.description}</p>
                                 <span class="badge bg-warning text-dark  p-1 rounded-1" style="margin-bottom: 8px !important;user-select: text;"><small>${value.category}</small></span>
@@ -148,7 +151,7 @@
 
         <script>
             // Fetch JSON data and populate select
-            fetch('./data/figma.json')
+            fetch('./data/design.json')
                 .then(response => {
                     if (!response.ok) {
                         throw new Error('Network response was not ok');
@@ -156,7 +159,7 @@
                     return response.json();
                 })
                 .then(data => {
-                    populateSelect(data.FIGMATOOLS);
+                    populateSelect(data.DESIGNTOOLS);
                 })
                 .catch(error => {
                     console.error('Error fetching JSON:', error);
@@ -176,8 +179,9 @@
         </script>
 
 
-     
         
+
+
 </body>
 
 

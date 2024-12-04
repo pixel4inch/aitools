@@ -80,6 +80,22 @@
             "title": "PIGMENT",
             "category":"Colors",
             "description": "2 Contrast colors "
+        },
+
+        {
+            "id": 8,
+            "weblink": "https://www.fffuel.co/ssshape/",
+            "title": "fffuel ",
+            "description": "ALL SHAPES COLOR TEXTURE CODE",
+            "category":"All Elements"
+        },
+
+        {
+            "id": 9,
+            "weblink": " https://pixcap.com/character-library",
+            "title": "Pixcap ",
+            "description": "Pixcap 3D character creator",
+            "category":"3D Elements"
         }
 
 
