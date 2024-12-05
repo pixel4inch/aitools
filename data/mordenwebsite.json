@@ -20,6 +20,13 @@
             "title": "HTTPSTER",
             "description": "Web design inspiration from all over the world",
             "category":"Website"
+        },
+        {
+            "id": 3,
+            "weblink": "https://purepit.webflow.io/",
+            "title": "PURE PIT",
+            "description": "Web design inspiration from all over the world",
+            "category":"Website"
         }
 
     ]

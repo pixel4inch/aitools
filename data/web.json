@@ -1,13 +1,7 @@
 {
     "WEBTOOLS": [
         
-        {
-            "id": 1,
-            "weblink": "https://www.dora.run/",
-            "title": "Dora",
-            "category":"3D WebSite",
-            "description": "3d Generate a site for any idea"
-        },
+        
         {
             "id": 2,
             "weblink": "https://colourcontrast.cc/",
@@ -96,7 +90,23 @@
             "title": "Pixcap ",
             "description": "Pixcap 3D character creator",
             "category":"3D Elements"
+        },
+        {
+            "id": 10,
+            "weblink": " https://unicode.org/emoji/charts/full-emoji-list.html",
+            "title": "UNICODE FOR EMOJI ",
+            "description": "Uni code for emoji",
+            "category":"emoji"
+        },
+        {
+            "id": 11,
+            "weblink": " https://emojicopy.com/",
+            "title": "EMOJI COPY ",
+            "description": "all emoji",
+            "category":"emoji"
         }
+
+
 
 
 

@@ -22,7 +22,7 @@ class HeaderComponent extends HTMLElement {
             <a class="nav-link active" href="figma.html">FIGMA</a>
             <a class="nav-link" href="index.html">AI TOOLS </a>
             <a class="nav-link" href="web.html">WEB SOURCE</a>
-            <a class="nav-link" href="DesignTools.html">ONLINE DESIGN TOOLS</a>
+            <a class="nav-link" href="DesignTools.html">ONLINE WEB & DESIGN TOOLS</a>
             <a class="nav-link" href="uiux.html">UI/UX SOURCE</a>
             <a class="nav-link" href="Mordensite.html">INSPIRATION </a>
           
