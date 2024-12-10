@@ -50,8 +50,15 @@
             "title": "framer",
             "category":"WebPage Generator",
             "description": "Design beautiful responsive sites with an intuitive interface."
-        }
+        },
        
+        {
+            "id": 7,
+            "weblink": "https://chatx.ai/chatgpt-prompt-generator/",
+            "title": "chatx ",
+            "category":"Prompt Generator",
+            "description": "Design beautiful responsive sites with an intuitive interface."
+        }
 
 
 

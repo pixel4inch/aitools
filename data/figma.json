@@ -6,10 +6,21 @@
             "title": "Design Systems for figma",
             "description": "A collection of Design Systems for Figma from all over the globe 🌎 backed by code.",
             "category":"Design Systems"
+        },
+        {
+            "id": 2,
+            "weblink": "https://flowbite.com/figma/",
+            "title": "Flowbit design system for Tilwind",
+            "description": "Design UI interfaces and simplify the process of integrating into live websites with Tailwind CSS using this professional Figma design system featuring 1000+ component variants, responsive pages, dark mode, and auto-layout",
+            "category":"tilwind design system"
+        },
+        {
+            "id": 3,
+            "weblink": "https://www.figma.com/community/plugin/1242548152689430610/tailwind-css-color-generator",
+            "title": "Tailwind css color generator",
+            "description": "Generate a full Tailwind CSS color scale based on a hexcode, HSL color or a random color.",
+            "category":"tilwind design system"
         }
-
-        
-
 
     ]
     
