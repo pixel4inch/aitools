@@ -1,0 +1,25 @@
+{
+    "PROMPTTOOLS": [
+        {
+            "id": 1,
+            "weblink": "https://learnprompting.org/docs/basics/chatgpt_basics_prompt",
+            "title": "Learn Prompting",
+            "description": "PromptTools is an open-source library for experimenting with, testing, and evaluating prompts, LLMs, and vector databases.",
+            "category":"Prompting"
+        },
+        {
+            "id": 2,
+            "weblink": "https://prompttoolbox.com/",
+            "title": "Prompt Toolsbox",
+            "description": "list of the top UI design principles that capture some of the most interesting faces of digital design. Check them out!",
+            "category":"Prompting"
+        }
+      
+
+        
+        
+
+
+    ]
+    
+}
