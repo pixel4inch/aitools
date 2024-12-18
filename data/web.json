@@ -104,7 +104,23 @@
             "title": "EMOJI COPY ",
             "description": "all emoji",
             "category":"emoji"
+        },
+
+        {
+            "id": 11,
+            "weblink": "  https://app.dhiwise.com/dashboard",
+            "title": "DHIWISE ",
+            "description": "DhiWise is a programming platform where developers can convert their designs into developer-friendly code.",
+            "category":"AI Website Builder"
+        },
+        {
+            "id": 11,
+            "weblink": "  https://unblast.com/fonts/",
+            "title": "UNIBLAST ",
+            "description": "Best Free Fonts for Designers Selection of hand-picked free and premium fonts for various design purposes. Including serif, sans serif, script, display, brush and grotesque.",
+            "category":"font"
         }
+       
 
 
 

@@ -25,8 +25,8 @@ class HeaderComponent extends HTMLElement {
             <a class="nav-link" href="DesignTools.html">ONLINE WEB & DESIGN TOOLS</a>
             <a class="nav-link" href="uiux.html">UI/UX SOURCE</a>
             <a class="nav-link" href="Mordensite.html">INSPIRATION </a>
-             <a class="nav-link" href="prompting.html">AI PROMPTING </a>
-          
+            <a class="nav-link" href="prompting.html">AI PROMPTING </a>
+            <a class="nav-link" href="fonts.html"> FONTS </a>
         </div>
     </main>
         `;

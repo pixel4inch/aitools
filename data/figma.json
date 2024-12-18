@@ -3,7 +3,7 @@
         {
             "id": 1,
             "weblink": "https://www.designsystemsforfigma.com/?languages=React",
-            "title": "Design Systems for figma",
+            "title": "All Design Systems for figma",
             "description": "A collection of Design Systems for Figma from all over the globe 🌎 backed by code.",
             "category":"Design Systems"
         },
@@ -11,9 +11,9 @@
         {
             "id": 2,
             "weblink": "https://flowbite.com/figma/",
-            "title": "Flowbit design system for Tilwind",
-            "description": "Design UI interfaces and simplify the process of integrating into live websites with Tailwind CSS using this professional Figma design system featuring 1000+ component variants, responsive pages, dark mode, and auto-layout",
-            "category":"tilwind design system"
+            "title": "Flowbit:- Design System Tailwind ",
+            "description": "Tailwind CSS Color Generator",
+            "category":"Design system"
         },
 
         {
@@ -21,8 +21,37 @@
             "weblink": "https://www.figma.com/community/plugin/1242548152689430610/tailwind-css-color-generator",
             "title": "Tailwind css color generator",
             "description": "Generate a full Tailwind CSS color scale based on a hexcode, HSL color or a random color.",
-            "category":"tilwind design system"
+            "category":"Plugin"
+        },
+        {
+            "id": 4,
+            "weblink": "https://www.figma.com/community/plugin/1247654636375551810/text-to-design-ai-ui-copilot-uidesign-ai",
+            "title": "Text To Design AI UI Copilot ",
+            "description": "To Generate UI Design with AI",
+            "category":"Plugin"
+        },
+        {
+            "id": 5,
+            "weblink": "https://www.figma.com/community/plugin/1350743748296105581/figr-identity-v2-generate-design-systems-quickly",
+            "title": "Generate Design Systems quickly ⭐",
+            "description": "Figma Identity is a Figma plugin that helps designers create and manage design systems",
+            "category":"Plugin"
+        },
+        {
+            "id": 5,
+            "weblink": "https://www.figma.com/community/plugin/742764242781786818/wireframe",
+            "title": "Wireframe⭐",
+            "description": "Wireframe plugin is the best Figma plugin for creating beautiful wireframes",
+            "category":"Wireframe"
+        },
+        {
+            "id": 5,
+            "weblink": "https://www.figma.com/community/plugin/742764242781786818/wireframe",
+            "title": "Wireframe⭐",
+            "description": "Wireframe plugin is the best Figma plugin for creating beautiful wireframes",
+            "category":"Wireframe"
         }
+
     ]
     
 }
