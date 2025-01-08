@@ -50,6 +50,34 @@
             "title": "Wireframe⭐",
             "description": "Wireframe plugin is the best Figma plugin for creating beautiful wireframes",
             "category":"Wireframe"
+        },
+        {
+            "id": 6,
+            "weblink": "https://www.figma.com/community/file/1304881365343613949/checkout-and-account-components",
+            "title": "Flowbit:- Design System Shopify ",
+            "description": "Components used for Shopify checkout and account experiences. UI extensions let you and your team build custom functionality that merchants can install at defined targets in the checkout and account flow.",
+            "category":"Design system"
+        },
+        {
+            "id": 7,
+            "weblink": "https://www.figma.com/@elastic",
+            "title": "Flowbit:- Design System Elastic ",
+            "description": "Components used for Elastic ",
+            "category":"Design system"
+        },
+        {
+            "id": 8,
+            "weblink": "https://www.figma.com/community/file/913828647221574819",
+            "title": "Friday Design System ",
+            "description": "Friday Design System (FDS) is a Design System accelerator to help you accelerate the development and design efforts for a faster time",
+            "category":"Design system"
+        },
+        {
+            "id": 7,
+            "weblink": "https://www.figma.com/community/file/1118382734246097250",
+            "title": "Typography Guidlines",
+            "description": "Typography Guidlines",
+            "category":"Guidlines"
         }
 
     ]
