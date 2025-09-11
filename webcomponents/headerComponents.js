@@ -16,22 +16,20 @@ class HeaderComponent extends HTMLElement {
             </div>
               
         </nav>
-
     </header>
     <main class="w-100" >
-        <div class="toplinks d-flex justify-content-center align-content-center py-4" style="gap:10px">
-            <a class="nav-link active" href="index.html">AI </a>
-            <a class="nav-link" href="figma.html">FIGMA</a>
-            <a class="nav-link" href="web.html">WEB</a>
-             <a class="nav-link" href="uiux.html">UI/UX</a>
-               <a class="nav-link" href="websites.html">MODERN WEBSITE</a>
-          
+        <div class="toplinks d-flex justify-content-center align-content-center py-4 flex-wrap" style="gap:10px">
+            <a class="nav-link active" href="figma.html">FIGMA</a>
+            <a class="nav-link" href="index.html">AI TOOLS </a>
+            <a class="nav-link" href="web.html">WEB SOURCE</a>
+            <a class="nav-link" href="DesignTools.html">ONLINE WEB & DESIGN TOOLS</a>
+            <a class="nav-link" href="uiux.html">UI/UX SOURCE</a>
+            <a class="nav-link" href="Mordensite.html">INSPIRATION </a>
+            <a class="nav-link" href="prompting.html">AI PROMPTING </a>
+            <a class="nav-link" href="fonts.html"> FONTS </a>
         </div>
     </main>
- 
-       
-       `;
-
+        `;
 
    }
 

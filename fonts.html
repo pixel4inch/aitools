@@ -11,6 +11,7 @@
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
 
     <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/fontsimporter.css"/>
     <style>
         #tubevideo {
             width: calc(100% - 4px);
@@ -30,10 +31,6 @@
         }
     </style>
 
-
-   
-    
-
 </head>
 
 <body>
@@ -52,9 +49,9 @@
             
             <!-- Tab panes -->
             <div class="container p-2">
+               
                 <div class="tab-pane active" id="aitools" role="tabpanel" aria-labelledby="template-tab">
-                    <h5 class="text-center fw-bolder my-3">RESOURCES FOR DESING & DEVELOPMENT </h5>
-                    
+                    <h5 class="text-center fw-bolder my-3">AI TOOLS FOR UI DEVELOPMENT AND DESIGN </h5>
                         <fieldset class="shadow-sm border p-3 my-4 w-100 d-flex justify-content-center align-items-center">
                           
                             <div class="mb-0 " style="flex-grow:1">
@@ -65,9 +62,10 @@
                                     <option>Select</option>
                                 </select>
                             </div>
+                           
                           </fieldset>
-                    
                     <ol class="row mx-4 d-flex justify-content-start align-items-center flex-wrap unorder-list" id="aitoolsblock" style="gap: 0px;">
+                   
                     </ol>
                 </div>
             </div>
@@ -94,8 +92,8 @@
                 let originalData = []; // To store original data
             
                 // Fetch the JSON data
-                $.getJSON("./data/web.json", function (data) {
-                    originalData = data.WEBTOOLS; // Store the fetched data
+                $.getJSON("./data/fonts.json", function (data) {
+                    originalData = data.FONTSTOOLS; // Store the fetched data
                     renderList(originalData); // Render the full list initially
                 }).fail(function () {
                     document.write("An error has occurred.");
@@ -108,12 +106,30 @@
                         output += `
                             <li class="w-100 border-bottom px-3">
                                 
-                                <div class="d-flex justify-content-start align-items-start position-relative">
-                                    <a href="${value.weblink}" target="_blank" class="text-dark">${value.title}</a>
-                                    
+                                <div class="d-flex justify-content-start align-items-start position-relative ">
+                                    <a href="${value.weblink}" target="_blank" class="text-dark mb-3">${value.title}</a>
+                                   
                                 </div>
-                                <p>${value.description}</p>
-                                <span class="badge bg-warning text-dark  p-1 rounded-1" style="margin-bottom: 8px !important;user-select: text;"><small>${value.category}</small></span>
+
+                                <div class="d-flex justify-content-start flex-wrap align-items-start">
+                                <div class="bg-light my-1 p-2">
+                                    <p style="user-select:text; line-height:21px !important;  font-size: 18px;letter-spacing: 3px; font-weight: 300; font-family:${value.fontclass} !important">${value.description}</p>
+                                    <p style="user-select:text; line-height:21px !important;  font-size: 18px;letter-spacing: 3px; font-weight: 500; font-family:${value.fontclass} !important">${value.description}</p>
+                                    <p style="user-select:text; line-height:21px !important;  font-size: 18px;letter-spacing: 3px; font-weight: bold; font-family:${value.fontclass} !important">${value.description}</p>
+                                </div>
+                                <div class="my-1 p-2">
+                                 <p style="user-select:text; line-height:21px !important;  font-size: 18px;letter-spacing: 3px; font-weight: 300; font-family:${value.fontclass} !important">${value.descriptionTwo}</p>
+                                 <p style="user-select:text; line-height:21px !important;  font-size: 18px;letter-spacing: 3px; font-weight: 500; font-family:${value.fontclass} !important">${value.descriptionTwo}</p>
+                                  <p style="user-select:text; line-height:21px !important;  font-size: 18px;letter-spacing: 3px; font-weight: bold; font-family:${value.fontclass} !important">${value.descriptionTwo}</p>
+                                </div>
+                                <div class="bg-light my-1 p-2">
+                                  <p style="user-select:text; line-height:21px !important;  font-size: 18px;letter-spacing: 3px; font-weight: 300; font-family:${value.fontclass} !important">${value.numbers}</p>
+                                  <p style="user-select:text; line-height:21px !important;  font-size: 18px;letter-spacing: 3px; font-weight: 500; font-family:${value.fontclass} !important">${value.numbers}</p>
+                                   <p style="user-select:text; line-height:21px !important;  font-size: 18px;letter-spacing: 3px; font-weight: bold; font-family:${value.fontclass} !important">${value.numbers}</p>
+                               
+                                </div>
+                            </div>
+                                <!--span class="badge bg-warning text-dark  p-1 rounded-1" style="margin-bottom: 8px !important;user-select: text;"><small>${value.category}</small></span-->
                             </li>
                         `;
                     });
@@ -147,7 +163,7 @@
 
         <script>
             // Fetch JSON data and populate select
-            fetch('./data/web.json')
+            fetch('./data/fonts.json')
                 .then(response => {
                     if (!response.ok) {
                         throw new Error('Network response was not ok');
@@ -155,7 +171,7 @@
                     return response.json();
                 })
                 .then(data => {
-                    populateSelect(data.WEBTOOLS);
+                    populateSelect(data.FONTSTOOLS);
                 })
                 .catch(error => {
                     console.error('Error fetching JSON:', error);
@@ -173,11 +189,7 @@
                 });
             }
         </script>
-
-
         
-
-
 </body>
 
 

@@ -1,13 +1,7 @@
 {
     "WEBTOOLS": [
         
-        {
-            "id": 1,
-            "weblink": "https://www.dora.run/",
-            "title": "Dora",
-            "category":"3D WebSite",
-            "description": "3d Generate a site for any idea"
-        },
+        
         {
             "id": 2,
             "weblink": "https://colourcontrast.cc/",
@@ -80,7 +74,55 @@
             "title": "PIGMENT",
             "category":"Colors",
             "description": "2 Contrast colors "
+        },
+
+        {
+            "id": 8,
+            "weblink": "https://www.fffuel.co/ssshape/",
+            "title": "fffuel ",
+            "description": "ALL SHAPES COLOR TEXTURE CODE",
+            "category":"All Elements"
+        },
+
+        {
+            "id": 9,
+            "weblink": " https://pixcap.com/character-library",
+            "title": "Pixcap ",
+            "description": "Pixcap 3D character creator",
+            "category":"3D Elements"
+        },
+        {
+            "id": 10,
+            "weblink": " https://unicode.org/emoji/charts/full-emoji-list.html",
+            "title": "UNICODE FOR EMOJI ",
+            "description": "Uni code for emoji",
+            "category":"emoji"
+        },
+        {
+            "id": 11,
+            "weblink": " https://emojicopy.com/",
+            "title": "EMOJI COPY ",
+            "description": "all emoji",
+            "category":"emoji"
+        },
+
+        {
+            "id": 11,
+            "weblink": "  https://app.dhiwise.com/dashboard",
+            "title": "DHIWISE ",
+            "description": "DhiWise is a programming platform where developers can convert their designs into developer-friendly code.",
+            "category":"AI Website Builder"
+        },
+        {
+            "id": 11,
+            "weblink": "  https://unblast.com/fonts/",
+            "title": "UNIBLAST ",
+            "description": "Best Free Fonts for Designers Selection of hand-picked free and premium fonts for various design purposes. Including serif, sans serif, script, display, brush and grotesque.",
+            "category":"Fonts"
         }
+       
+
+
 
 
 

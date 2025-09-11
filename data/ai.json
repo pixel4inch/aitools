@@ -41,41 +41,6 @@
             "title": "framer",
             "category": "WebPage Generator",
             "description": "Design beautiful responsive sites with an intuitive interface."
-        },
-        {
-            "id": 7,
-            "weblink": "https://www.klingai.com/image-to-video/new",
-            "title": "Klingai",
-            "category": "Image To Video",
-            "description": "KLING AI, tools for creating imaginative images and videos, based on state-of-art generative AI methods."
-        },
-        {
-            "id": 8,
-            "weblink": "https://leonardo.ai/",
-            "title": "LEONARDO AI",
-            "category": "Image Gen",
-            "description": "Leverage generative AI with a unique suite of tools to convey your ideas to the world."
-        },
-        {
-            "id": 9,
-            "weblink": "https://elevenlabs.io/",
-            "title": "Eleven labs",
-            "category": "Audio",
-            "description": "Create the most realistic speech with our AI audio platform"
-        },
-        {
-            "id": 10,
-            "weblink": "https://bolt.new/",
-            "title": "Bolt.New",
-            "category": "WebPage Generator",
-            "description": "Ai Website Genearatior for any Platfform"
-        },
-        {
-            "id": 10,
-            "weblink": "https://www.freefaces.gallery/",
-            "title": "Free Faces. Gallery",
-            "category": "Fonts",
-            "description": "Fonts for design"
         }
     ]
 }

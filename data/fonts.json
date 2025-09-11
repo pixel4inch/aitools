@@ -1,0 +1,18 @@
+{
+    "FONTSTOOLS": [
+        {
+            "id": 1,
+            "weblink": "https://www.designsystemsforfigma.com/?languages=React",
+            "title": "Poppins",
+            "description": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+            "descriptionTwo": "abcdefghijklmnopqrstuvwxy",
+            "numbers": "0123456789",
+            "category":"Design Systems",
+            "fontclass":"Poppins"
+        }
+        
+        
+
+    ]
+    
+}

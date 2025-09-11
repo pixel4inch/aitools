@@ -20,4 +20,72 @@
             "title": "HTTPSTER",
             "description": "Web design inspiration from all over the world",
             "category":"Website"
+        },
+        {
+            "id": 4,
+            "weblink": "https://purepit.webflow.io/",
+            "title": "PURE PIT",
+            "description": "Web design inspiration from all over the world",
+            "category":"Website"
+        },
+        {
+            "id": 5,
+            "weblink": "https://refero.design/",
+            "title": "Refero",
+            "description": "Web design inspiration from all over the world",
+            "category":"Website"
+        },
+        {
+            "id": 4,
+            "weblink": "https://stacksorted.com",
+            "title": "Stack Sorted for Elements",
+            "description": "Web design inspiration from all over the world",
+            "category":"Website"
+        },
+        {
+            "id": 5,
+            "weblink": "https://www.awwwards.com/",
+            "title": "Awwards",
+            "description": "Web design inspiration from all over the world",
+            "category":"Website"
+        },
+        {
+            "id": 6,
+            "weblink": "https://www.awwwards.com/",
+            "title": "Awwards",
+            "description": "Web design inspiration from all over the world",
+            "category":"Website"
+        },
+        {
+            "id": 7,
+            "weblink": "https://www.darkmodedesign.com/",
+            "title": "Dark Mode Desings",
+            "description": "Web design inspiration from all over the world",
+            "category":"Website"
+        },
+        {
+            "id": 7,
+            "weblink": "https://minimal.gallery/",
+            "title": "Minimal Gallery",
+            "description": "Web design inspiration from all over the world",
+            "category":"Website"
+        },
+        {
+            "id": 7,
+            "weblink": "https://www.spacex.com/starshield/",
+            "title": "Spacex",
+            "description": "Web design inspiration from all over the world",
+            "category":"Website"
+        },
+        {
+            "id": 7,
+            "weblink": "https://www.starlink.com/",
+            "title": "Strlink",
+            "description": "Web design inspiration from all over the world",
+            "category":"Website"
         }
+
+
+    ]
+
+}

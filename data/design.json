@@ -1,0 +1,29 @@
+{
+    "DESIGNTOOLS": [
+        
+        {
+            "id": 1,
+            "weblink": "  https://webflow.com/",
+            "title": "WEB FLOW",
+            "description": "As the first-ever website experience platform, Webflow lets marketers, designers, and developers come together to build, manage, and optimize web experiences that get results.",
+            "category":"Website Builder"
+        },
+
+        {
+            "id": 2,
+            "weblink": "  https://www.canva.com/en_in/",
+            "title": "CANVA",
+            "description": "Canva makes it easy to create and share professional designs.",
+            "category":"Desing Maker"
+        },
+        {
+            "id": 3,
+            "weblink": "https://www.dora.run/",
+            "title": "Dora",
+            "category":"3D Website Builder",
+            "description": "Start with AI, ship 3D animated sites with zero code"
+        }
+     
+    ]
+    
+}
