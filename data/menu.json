@@ -1,0 +1,76 @@
+{
+    "menu": [
+        {
+            "id": 1,
+            "MTitle": "WebCraft",
+            "MImage": "",
+            "MLink": "done"
+        },
+        {
+            "id": 2,
+            "MTitle": "AI Tools",
+            "MImage": "",
+            "MLink": "ai.html"
+        },
+        {
+            "id": 3,
+            "MTitle": "UI/UX",
+            "MImage": "",
+            "MLink": "uiux.html"
+        },
+        {
+            "id": 4,
+            "MTitle": "WEB COMPONENTS",
+            "MImage": "",
+            "MLink": "components.html"
+        },
+        {
+            "id": 5,
+            "MTitle": "CSS",
+            "MImage": "",
+            "MLink": "css.html"
+        },
+        {
+            "id": 6,
+            "MTitle": "FONTS",
+            "MImage": "",
+            "MLink": "fonts.html"
+        },
+        {
+            "id": 7,
+            "MTitle": "INSPIRATION",
+            "MImage": "",
+            "MLink": "inspiration.html"
+        },
+        {
+            "id": 7,
+            "MTitle": "INSPIRATION",
+            "MImage": "",
+            "MLink": "inspiration.html"
+        },
+        {
+            "id": 8,
+            "MTitle": "REACT/NEXT JS",
+            "MImage": "",
+            "MLink": "reactnext.html"
+        },
+        {
+            "id": 9,
+            "MTitle": "GSAP",
+            "MImage": "",
+            "MLink": "gsap.html"
+        },
+        {
+            "id": 10,
+            "MTitle": "Stock Images",
+            "MImage": "",
+            "MLink": "img.html"
+        },
+        {
+            "id": 11,
+            "MTitle": "OTHERS",
+            "MImage": "",
+            "MLink": "rest.html"
+        }
+    ]
+}

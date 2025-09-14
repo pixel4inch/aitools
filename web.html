@@ -31,43 +31,45 @@
     </style>
 
 
-   
-    
+
+
 
 </head>
 
 <body>
-   
-    <header-component></header-component>
-    
 
- 
-        <!-- Fixed navbar -->
-       
+    <header-component></header-component>
+
+
+
+    <!-- Fixed navbar -->
+
 
     <main class=" mt-0 p-2 h-100">
 
         <div class="d-flex justify-content-start">
             <!-- Nav tabs -->
-            
+
             <!-- Tab panes -->
             <div class="container p-2">
                 <div class="tab-pane active" id="aitools" role="tabpanel" aria-labelledby="template-tab">
                     <h5 class="text-center fw-bolder my-3">RESOURCES FOR DESING & DEVELOPMENT </h5>
-                    
-                        <fieldset class="shadow-sm border p-3 my-4 w-100 d-flex justify-content-center align-items-center">
-                          
-                            <div class="mb-0 " style="flex-grow:1">
-                              <input type="text" id="disabledTextInput" class="p-3 rounded-0 form-control w-100" placeholder="SEARCH BY AI TOOL OR CATEGORY">
-                            </div>
-                            <div class="mb-0">
-                                <select id="disabledSelect" class="form-select p-3 rounded-0">
-                                    <option>Select</option>
-                                </select>
-                            </div>
-                          </fieldset>
-                    
-                    <ol class="row mx-4 d-flex justify-content-start align-items-center flex-wrap unorder-list" id="aitoolsblock" style="gap: 0px;">
+
+                    <fieldset class="shadow-sm border p-3 my-4 w-100 d-flex justify-content-center align-items-center">
+
+                        <div class="mb-0 " style="flex-grow:1">
+                            <input type="text" id="disabledTextInput" class="p-3 rounded-0 form-control w-100"
+                                placeholder="SEARCH BY AI TOOL OR CATEGORY">
+                        </div>
+                        <div class="mb-0">
+                            <select id="disabledSelect" class="form-select p-3 rounded-0">
+                                <option>Select</option>
+                            </select>
+                        </div>
+                    </fieldset>
+
+                    <ol class="row mx-4 d-flex justify-content-start align-items-center flex-wrap unorder-list"
+                        id="aitoolsblock" style="gap: 0px;">
                     </ol>
                 </div>
             </div>
@@ -85,97 +87,100 @@
         crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.7.1.js"
         integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
-    
+
     <script src="./webcomponents/headerComponents.js"></script>
-       
-       
-        <script>
-            $(document).ready(function () {
-                let originalData = []; // To store original data
-            
-                // Fetch the JSON data
-                $.getJSON("./data/web.json", function (data) {
-                    originalData = data.WEBTOOLS; // Store the fetched data
-                    renderList(originalData); // Render the full list initially
-                }).fail(function () {
-                    document.write("An error has occurred.");
-                });
-            
-                // Function to render the list
-                function renderList(data) {
-                    let output = '';
-                    $.each(data, function (key, value) {
-                        output += `
-                            <li class="w-100 border-bottom px-3">
-                                
-                                <div class="d-flex justify-content-start align-items-start position-relative">
-                                    <a href="${value.weblink}" target="_blank" class="text-dark">${value.title}</a>
-                                    
-                                </div>
-                                <p>${value.description}</p>
-                                <span class="badge bg-warning text-dark  p-1 rounded-1" style="margin-bottom: 8px !important;user-select: text;"><small>${value.category}</small></span>
-                            </li>
-                        `;
-                    });
-                    $('#aitoolsblock').html(output);
-                }
-            
-                // Function to filter data
-                function filterData() {
-                    const searchTerm = $('#disabledTextInput').val().toLowerCase(); // Get search term
-                    const selectedCategory = $('#disabledSelect').val().toLowerCase(); // Get selected dropdown value
-            
-                    // Filter the original data based on search term and dropdown selection
-                    const filteredData = originalData.filter(item => {
-                        const matchesSearch = item.title.toLowerCase().includes(searchTerm) || 
-                                              item.category.toLowerCase().includes(searchTerm);
-                        const matchesCategory = selectedCategory === "select" || 
-                                                item.category.toLowerCase() === selectedCategory;
-                        return matchesSearch && matchesCategory;
-                    });
-            
-                    renderList(filteredData); // Render the filtered list
-                }
-            
-                // Event listeners for filtering
-                $('#disabledTextInput').on('input', filterData); // Filter when typing in the search box
-                $('#disabledSelect').on('change', filterData); // Filter when selecting dropdown
+
+
+    <script>
+        $(document).ready(function () {
+            let originalData = []; // To store original data
+
+            // Fetch the JSON data
+            $.getJSON("./data/data.json", function (data) {
+                originalData = data.WEB; // Store the fetched data
+                renderList(originalData); // Render the full list initially
+            }).fail(function () {
+                document.write("An error has occurred.");
             });
-        </script>
 
-
-
-        <script>
-            // Fetch JSON data and populate select
-            fetch('./data/web.json')
-                .then(response => {
-                    if (!response.ok) {
-                        throw new Error('Network response was not ok');
-                    }
-                    return response.json();
-                })
-                .then(data => {
-                    populateSelect(data.WEBTOOLS);
-                })
-                .catch(error => {
-                    console.error('Error fetching JSON:', error);
+            // Function to render the list
+            function renderList(data) {
+                let output = '';
+                $.each(data, function (key, value) {
+                    output += `
+                            <li class="col-lg-4 col-md-6 col-12 border-bottom ">
+                                 <span class="badge bg-warning text-dark  p-1 rounded-1" style="margin-bottom: 8px !important;user-select: text;"><small>${value.category}</small></span>
+                                <div class="border p-2">
+                                <div class="  d-flex justify-content-start align-items-start position-relative ">
+                                    <a href="${value.weblink}" target="_blank" class="text-dark">${value.title}</a>
+                                   
+                                </div>
+                                <!--p>${value.description}</p-->
+                               
+                                </div>
+                            
+                                </li>
+                        `;
                 });
-    
-            function populateSelect(items) {
-                const selectElement = document.getElementById('disabledSelect');
-                const uniqueCategories = [...new Set(items.map(item => item.category))];
-    
-                uniqueCategories.forEach(category => {
-                    const option = document.createElement('option');
-                    option.value = category;
-                    option.textContent = category;
-                    selectElement.appendChild(option);
-                });
+                $('#aitoolsblock').html(output);
             }
-        </script>
+
+            // Function to filter data
+            function filterData() {
+                const searchTerm = $('#disabledTextInput').val().toLowerCase(); // Get search term
+                const selectedCategory = $('#disabledSelect').val().toLowerCase(); // Get selected dropdown value
+
+                // Filter the original data based on search term and dropdown selection
+                const filteredData = originalData.filter(item => {
+                    const matchesSearch = item.title.toLowerCase().includes(searchTerm) ||
+                        item.category.toLowerCase().includes(searchTerm);
+                    const matchesCategory = selectedCategory === "select" ||
+                        item.category.toLowerCase() === selectedCategory;
+                    return matchesSearch && matchesCategory;
+                });
+
+                renderList(filteredData); // Render the filtered list
+            }
+
+            // Event listeners for filtering
+            $('#disabledTextInput').on('input', filterData); // Filter when typing in the search box
+            $('#disabledSelect').on('change', filterData); // Filter when selecting dropdown
+        });
+    </script>
 
 
-        
+
+    <script>
+        // Fetch JSON data and populate select
+        fetch('./data/data.json')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();
+            })
+            .then(data => {
+                populateSelect(data.WEB);
+            })
+            .catch(error => {
+                console.error('Error fetching JSON:', error);
+            });
+
+        function populateSelect(items) {
+            const selectElement = document.getElementById('disabledSelect');
+            const uniqueCategories = [...new Set(items.map(item => item.category))];
+
+            uniqueCategories.forEach(category => {
+                const option = document.createElement('option');
+                option.value = category;
+                option.textContent = category;
+                selectElement.appendChild(option);
+            });
+        }
+    </script>
+
+
+
 
 
 </body>

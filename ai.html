@@ -30,10 +30,6 @@
         }
     </style>
 
-
-
-
-
 </head>
 
 <body>
@@ -55,8 +51,6 @@
 
                 <div class="tab-pane active" id="aitools" role="tabpanel" aria-labelledby="template-tab">
                     <h5 class="text-center fw-bolder my-3">AI TOOLS FOR UI DEVELOPMENT AND DESIGN </h5>
-
-
                     <fieldset class="shadow-sm border p-3 my-4 w-100 d-flex justify-content-center align-items-center">
 
                         <div class="mb-0 " style="flex-grow:1">
@@ -64,17 +58,15 @@
                                 placeholder="SEARCH BY AI TOOL OR CATEGORY">
                         </div>
                         <div class="mb-0">
-
                             <select id="disabledSelect" class="form-select p-3 rounded-0">
                                 <option>Select</option>
                             </select>
                         </div>
 
                     </fieldset>
+                    <ol class="row d-flex justify-content-between align-items-center flex-wrap unorder-list"
+                        id="aitoolsblock" style="gap:10px 0px;">
 
-
-                    <ol class="row mx-4 d-flex justify-content-start align-items-center flex-wrap unorder-list"
-                        id="aitoolsblock" style="gap: 0px;">
                     </ol>
                 </div>
             </div>
@@ -102,7 +94,7 @@
 
             // Fetch the JSON data
             $.getJSON("./data/data.json", function (data) {
-                originalData = data.UIUX; // Store the fetched data
+                originalData = data.AI; // Store the fetched data
                 renderList(originalData); // Render the full list initially
             }).fail(function () {
                 document.write("An error has occurred.");
@@ -113,7 +105,7 @@
                 let output = '';
                 $.each(data, function (key, value) {
                     output += `
-                             <li class="col-lg-4 col-md-6 col-12 border-bottom ">
+                            <li class="col-lg-4 col-md-6 col-12 border-bottom ">
                                  <span class="badge bg-warning text-dark  p-1 rounded-1" style="margin-bottom: 8px !important;user-select: text;"><small>${value.category}</small></span>
                                 <div class="border p-2">
                                 <div class="  d-flex justify-content-start align-items-start position-relative ">
@@ -165,7 +157,7 @@
                 return response.json();
             })
             .then(data => {
-                populateSelect(data.UIUX);
+                populateSelect(data.AI);
             })
             .catch(error => {
                 console.error('Error fetching JSON:', error);
@@ -183,10 +175,6 @@
             });
         }
     </script>
-
-
-
-
 
 </body>
 

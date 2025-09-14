@@ -167,10 +167,11 @@
                 <!--WEB PLANING TAB PANEL-->
                 <div class="tab-pane active" id="aitools" role="tabpanel" aria-labelledby="template-tab">
                     <h5 class="text-center fw-bolder my-3">AI TOOLS FOR UI DEVELOPMENT AND DESIGN </h5>
-                    
+
                     <div class="d-flex justify-content-center align-items-center">
                         <div class="searchbarblock">
-                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Search...">
+                            <input type="text" class="form-control" id="exampleFormControlInput1"
+                                placeholder="Search...">
                         </div>
                         <div class="dropdown w-10">
                             <select class="form-control w-100" id="exampleFormControlSelect1">
@@ -181,8 +182,9 @@
                             </select>
                         </div>
                     </div>
-                    
-                    <ol class="row mx-2 d-flex justify-content-start align-items-center flex-wrap unorder-list" id="aitoolsblock" style="gap: 0px;">
+
+                    <ol class="row mx-2 d-flex justify-content-start align-items-center flex-wrap unorder-list"
+                        id="aitoolsblock" style="gap: 0px;">
                     </ol>
 
 
@@ -207,7 +209,7 @@
             function loadData(elementId) {
                 $.getJSON("data/data.json", function (data) {
                     var output = '';
-        
+
                     // Generate HTML for all categories
                     $.each(data, function (index, value) {
                         output += `
@@ -216,10 +218,10 @@
                             <p>${value.description}</p>
                         </li>`;
                     });
-        
+
                     // Populate the list with all items
                     $('#' + elementId).html(output);
-        
+
                     // Trigger filter once data is loaded
                     filterItems();
                 }).fail(function (jqXHR, textStatus, errorThrown) {
@@ -227,17 +229,17 @@
                     $('#' + elementId).html("<p>An error has occurred while loading the data.</p>");
                 });
             }
-        
+
             // Function to filter items based on search and dropdown
             function filterItems() {
                 var searchValue = $('#exampleFormControlInput1').val().toLowerCase();
                 var selectedCategory = $('#exampleFormControlSelect1').val().toLowerCase();
-        
+
                 // Loop through all items and hide/show based on filters
                 $('#aitoolsblock .item').each(function () {
                     var title = $(this).data('title');
                     var category = $(this).data('category');
-        
+
                     if (
                         (searchValue === '' || title.includes(searchValue)) &&
                         (selectedCategory === 'all' || category === selectedCategory)
@@ -248,21 +250,21 @@
                     }
                 });
             }
-        
+
             // Load all data into the list when the page loads
             loadData('aitoolsblock');
-        
+
             // Event listeners for search and dropdown
             $('#exampleFormControlInput1').on('input', function () {
                 filterItems();
             });
-        
+
             $('#exampleFormControlSelect1').on('change', function () {
                 filterItems();
             });
         });
-        
-        
+
+
 
     </script>
 </body>

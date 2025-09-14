@@ -16,9 +16,12 @@ body {
     background-color: #fff
 }
 
-p{
+p {
     margin-bottom: 5px !important;
 }
+
+
+
 
 /*---header---*/
 
@@ -46,7 +49,7 @@ header p {
 }
 
 
-#disabledSelect{
+#disabledSelect {
 
     width: 180px !important;
 }
@@ -95,28 +98,32 @@ main {
     border-radius: 3px;
 }
 
-.toplinks a.active{
+.toplinks a.active {
     border-bottom: #fc0000 solid 1px;
     color: #fc0000;
 }
+
 /*---unorder-list---*/
 
 .unorder-list {
     margin: 0;
     padding: 0;
+
+    list-style: none;
 }
 
 .unorder-list li {
-    margin: 2px;
-    padding: 6px 12px;
+    margin: 0px;
+    padding: 16px;
     position: relative;
-
-}
-
-.unorder-list li:nth-child(even) {
     background-color: #f7f7f7;
 
 }
+
+/* .unorder-list li:nth-child(even) {
+    background-color: #f7f7f7;
+
+} */
 
 .unorder-list li a {
     text-transform: uppercase;
@@ -124,5 +131,5 @@ main {
     text-decoration: none;
     font-size: 16px;
     font-weight: 600;
-    margin-bottom:2px;
+    margin-bottom: 2px;
 }

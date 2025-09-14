@@ -1,0 +1,549 @@
+{
+    "CSS": [
+        {
+            "id": 1,
+            "utubelink": "https://www.youtube.com/embed/Jo6jqYOG5SM?si=yMy1t-8neTZeV2AE",
+            "title": "The Power of CSS When Combination of Not And Hover Selectors",
+            "status": "done"
+        },
+        {
+            "id": 2,
+            "utubelink": "https://www.youtube.com/embed/UmzFk68Bwdk?si=WcOKPhyAzwu5oaOh",
+            "title": "Incredible scroll-based animations with CSS-only",
+            "status": ""
+        },
+        {
+            "id": 3,
+            "utubelink": "https://www.youtube.com/embed/pFtxR-O78sY?si=WIxqmXinOnGfkYVj",
+            "title": "Crazy Scroll Animation Using CSS Only",
+            "status": ""
+        },
+        {
+            "id": 4,
+            "utubelink": "https://www.youtube.com/embed/P80sM7ausCA?si=e2jND3XRXTSUb6vh",
+            "title": "Crazy CSS Using By Master CSS",
+            "status": ""
+        },
+        {
+            "id": 5,
+            "utubelink": "https://www.youtube.com/embed/Reu0hHbis5w?si=yiVoVW67BWwqxTEe",
+            "title": "You Don't Need JavaScript For This - CSS ONLY Infinite Scroll",
+            "status": ""
+        },
+        {
+            "id": 6,
+            "utubelink": "https://www.youtube.com/embed/mF9yOwlunWk?si=Wa4rIatgJQjTuo9F",
+            "title": "Play and Pause in Infinite Slider with CSS Only",
+            "status": ""
+        },
+        {
+            "id": 7,
+            "utubelink": "https://www.youtube.com/embed/2l99ERCnB9c?si=S26hbfNvQyqKBjeU",
+            "title": "Infinite Scrolling Animation | CSS Only Text and Image Carousel",
+            "status": ""
+        },
+        {
+            "id": 8,
+            "utubelink": "https://www.youtube.com/embed/ihfRJ-2_d5w?si=gI981lQfOxQRE0Vc",
+            "title": "Teleport To The Future in CSS Animation With Animation-Delay",
+            "status": ""
+        },
+        {
+            "id": 9,
+            "utubelink": "https://www.youtube.com/embed/liW6bDLnuuk?si=5eaaLBFIRApbp9RA",
+            "title": "Smooth Animated Blob using CSS & SVG | Html CSS Blobs Animation Effects",
+            "status": ""
+        },
+        {
+            "id": 10,
+            "utubelink": "https://www.youtube.com/embed/icgbxlqf9Kc?si=OUR89Xn2hTRt6irh",
+            "title": "Pure CSS 3D Animated Background Effects | Quick CSS Tips and Tricks",
+            "status": ""
+        },
+        {
+            "id": 11,
+            "utubelink": "https://www.youtube.com/embed/icgbxlqf9Kc?si=OUR89Xn2hTRt6irh",
+            "title": "Pure CSS 3D Animated Background Effects | Quick CSS Tips and Tricks",
+            "status": ""
+        },
+        {
+            "id": 12,
+            "utubelink": "https://www.youtube.com/embed/r0sE2EtKV-c?si=RCwpq5eVhoZF9otz",
+            "title": "Scroll-Driven Animations Debugger 1.0.0",
+            "status": ""
+        },
+        {
+            "id": 11,
+            "utubelink": "https://www.youtube.com/embed/icgbxlqf9Kc?si=OUR89Xn2hTRt6irh",
+            "title": "Variables in CSS - Level Up variables with Propery",
+            "status": ""
+        },
+        {
+            "id": 12,
+            "utubelink": "https://www.youtube.com/embed/Xc6G3oV24yE?si=MdBddTCWVqzevm7m",
+            "title": "Top 10 CSS One Liners That Will Blow Your Mind",
+            "status": ""
+        }
+    ],
+    "GSAP": [
+        {
+            "id": 1,
+            "utubelink": "https://www.youtube.com/embed/UwNERAV-OiU?si=Ol0Y__f9VgTNqqlO",
+            "title": "When Parallax Effect Met Horizontal Scroll (GSAP & ScrollTrigger)",
+            "status": ""
+        },
+        {
+            "id": 2,
+            "utubelink": "https://www.youtube.com/embed/EDzJrYInOpY?si=ZKzHuNb9rAv1xBx1",
+            "title": "Make Scrolling Irresistible With This Image Reveal Animation",
+            "status": ""
+        },
+        {
+            "id": 3,
+            "utubelink": "https://www.youtube.com/embed/1iVRHjreOUI?si=pKPm6YOuOI-3Py5F",
+            "title": "Mind-Bending Scroll Animations With GSAP & ScrollTrigger",
+            "status": ""
+        },
+        {
+            "id": 4,
+            "utubelink": "https://www.youtube.com/embed/du3AbBEcwgM?si=K5gTR6M7ArfTu__f",
+            "title": "Build An Awesome Modern Animation Website with HTML, CSS & JS | Master GSAP!",
+            "status": ""
+        },
+        {
+            "id": 5,
+            "utubelink": "https://www.youtube.com/embed/CQHvWqYXI5s?si=0sFegaQPBRHtypbM",
+            "title": "GSAP ScrollTrigger Responsive Split Screen Pinning",
+            "status": ""
+        },
+        {
+            "id": 6,
+            "utubelink": "https://www.youtube.com/embed/SAcDG6oZfqo?si=bxiIGQhUdh-9Lc_D",
+            "title": "Creating a Stunning Image Gallery with GSAP and SVG Filters | Parallax Slider",
+            "status": ""
+        },
+        {
+            "id": 7,
+            "utubelink": "https://www.youtube.com/embed/P3fHboyHvkg?si=tDp0LMCdCXzfUFer",
+            "title": "[GAMECHANGER ] Create Modern Landing Page with HTML CSS JS | Shery.js Launch ",
+            "status": ""
+        },
+        {
+            "id": 8,
+            "utubelink": "https://www.youtube.com/embed/vqXLGX0szIQ?si=QgDkctX-bpLhoJkP",
+            "title": "Motion Design for the Web | FREE COURSE ",
+            "status": ""
+        }
+    ],
+    "AI": [
+        {
+            "id": 1,
+            "weblink": "https://www.relume.io/",
+            "title": "Relume",
+            "description": "Websites designed &amp; built faster with AI, Use AI as your design ally, not as a replacement. Effortlessly generate sitemaps and wireframes for marketing websites in minutes.",
+            "category": "Sitemap"
+        },
+        {
+            "id": 2,
+            "weblink": "https://slater.app/",
+            "title": "Slater",
+            "category": "Webflow",
+            "description": "The scripting layer for Webflow powered by AI!"
+        },
+        {
+            "id": 3,
+            "weblink": "https://www.midjourney.com/",
+            "title": "Midjourney",
+            "category": "Image Gen",
+            "description": "Imagine AI Art Generator"
+        },
+        {
+            "id": 4,
+            "weblink": "https://openai.com/index/dall-e-3/",
+            "title": "Chat GPT dall-E",
+            "category": "Image Gen",
+            "description": "DALL·E 3 understands significantly more nuance and detail than our previous systems, allowing you to easily translate your ideas into exceptionally accurate images."
+        },
+        {
+            "id": 5,
+            "weblink": "https://magnific.ai/",
+            "title": "Magnific",
+            "category": "Image Resolution",
+            "description": "The most advanced AI tech to achieve insanely high-res upscaling. Not only upscale, enhance & transform! Magnific can reimagine as many details as you wish guided by your own prompt and parameters!"
+        },
+        {
+            "id": 6,
+            "weblink": "https://www.framer.com/pricing/?utm_source=google&utm_medium=adwords&utm_campaign=Demand-Gen-Video-M-Aug2024-PUBLISH_&utm_source=google&utm_medium=cpc&utm_campaign=21544931734&utm_term=&utm_content=708030401904&utm_id=168476385071&gclid=CjwKCAjwodC2BhAHEiwAE67hJKkDyieUN6Ropsors0mrTSEV-IiNV7GyNP7RYLkqa5yi9mGLJXcQvRoCNFwQAvD_BwE",
+            "title": "framer",
+            "category": "WebPage Generator",
+            "description": "Design beautiful responsive sites with an intuitive interface."
+        }
+    ],
+    "REACTJS": [
+        {
+            "id": 1,
+            "weblink": "https://www.youtube.com/embed/AZXYSlxj0vU?si=YE32Cl2fpRGe_BHI",
+            "title": "ReactJS | Modern Animated Website | OCHI DESIGN | Awwwarded Website Clone",
+            "description": ""
+        }
+    ],
+    "WEB": [
+        {
+            "id": 2,
+            "weblink": "https://colourcontrast.cc/",
+            "title": "Colour Contrast",
+            "category": "Colors",
+            "description": "Colour contrast checker for generate contrast text on background",
+            "toprank": "true"
+        },
+        {
+            "id": 3,
+            "weblink": "https://coolors.co/contrast-checker/ffffff-000000",
+            "title": "coolors co",
+            "category": "Colors",
+            "toprank": "true",
+            "description": "Create the perfect palette or get inspired by thousands of beautiful color schemes."
+        },
+        {
+            "id": 4,
+            "weblink": "https://pictographic.io/",
+            "title": "Pictographic",
+            "category": "Vector Illustrations",
+            "toprank": "true",
+            "description": "Pictographic has 150,000+ illustrations over 10 styles that you can use for your design"
+        },
+        {
+            "id": 4,
+            "weblink": "https://www.remove.bg/",
+            "title": "Remove Bg",
+            "category": "Bg Remove",
+            "toprank": "true",
+            "description": "Remove Image Background"
+        },
+        {
+            "id": 4,
+            "weblink": "https://fontjoy.com/",
+            "title": "Font Joy",
+            "category": "Fonts",
+            "toprank": "true",
+            "description": "Generate font combinations with deep learning"
+        },
+        {
+            "id": 5,
+            "weblink": "https://www.monotype.com/font-pairing#/explore",
+            "title": "MONOTYPE",
+            "category": "Fonts",
+            "toprank": "true",
+            "description": "Generate font combinations"
+        },
+        {
+            "id": 6,
+            "weblink": "https://www.fontpair.co/all",
+            "title": "Font Pair",
+            "category": "Fonts",
+            "toprank": "true",
+            "description": "Try these free Google Font pairings"
+        },
+        {
+            "id": 7,
+            "weblink": "https://www.khroma.co/",
+            "title": "KHROMA",
+            "category": "Colors",
+            "toprank": "true",
+            "description": "Khroma uses AI to learn which colors you like and creates limitless palettes for you to discover, search, and save."
+        },
+        {
+            "id": 7,
+            "weblink": "https://uicolors.app/create",
+            "title": "UI COLORS",
+            "category": "Colors",
+            "toprank": "true",
+            "description": "Tailwind CSS Color Generator"
+        },
+        {
+            "id": 7,
+            "weblink": "https://pigment.shapefactory.co/",
+            "title": "PIGMENT",
+            "category": "Colors",
+            "toprank": "true",
+            "description": "2 Contrast colors "
+        },
+        {
+            "id": 8,
+            "weblink": "https://www.fffuel.co/ssshape/",
+            "title": "fffuel ",
+            "description": "ALL SHAPES COLOR TEXTURE CODE",
+            "toprank": "true",
+            "category": "All Elements"
+        },
+        {
+            "id": 9,
+            "weblink": " https://pixcap.com/character-library",
+            "title": "Pixcap ",
+            "description": "Pixcap 3D character creator",
+            "toprank": "true",
+            "category": "3D Elements"
+        },
+        {
+            "id": 10,
+            "weblink": " https://unicode.org/emoji/charts/full-emoji-list.html",
+            "title": "UNICODE FOR EMOJI ",
+            "description": "Uni code for emoji",
+            "category": "emoji"
+        },
+        {
+            "id": 11,
+            "weblink": " https://emojicopy.com/",
+            "title": "EMOJI COPY ",
+            "description": "all emoji",
+            "toprank": "true",
+            "category": "emoji"
+        },
+        {
+            "id": 11,
+            "weblink": "  https://app.dhiwise.com/dashboard",
+            "title": "DHIWISE ",
+            "description": "DhiWise is a programming platform where developers can convert their designs into developer-friendly code.",
+            "toprank": "true",
+            "category": "AI Website Builder"
+        },
+        {
+            "id": 11,
+            "weblink": "  https://unblast.com/fonts/",
+            "title": "UNIBLAST ",
+            "toprank": "true",
+            "description": "Best Free Fonts for Designers Selection of hand-picked free and premium fonts for various design purposes. Including serif, sans serif, script, display, brush and grotesque.",
+            "category": "Fonts"
+        }
+    ],
+    "UIUX": [
+        {
+            "id": 1,
+            "weblink": "https://www.designsystemsforfigma.com/?languages=React",
+            "title": "All Design Systems for figma",
+            "description": "A collection of Design Systems for Figma from all over the globe 🌎 backed by code.",
+            "category": "Design Systems"
+        },
+        {
+            "id": 2,
+            "weblink": "https://flowbite.com/figma/",
+            "title": "Flowbit:- Design System Tailwind ",
+            "description": "Tailwind CSS Color Generator",
+            "category": "Design system"
+        },
+        {
+            "id": 3,
+            "weblink": "https://www.figma.com/community/plugin/1242548152689430610/tailwind-css-color-generator",
+            "title": "Tailwind css color generator",
+            "description": "Generate a full Tailwind CSS color scale based on a hexcode, HSL color or a random color.",
+            "category": "Plugin"
+        },
+        {
+            "id": 4,
+            "weblink": "https://www.figma.com/community/plugin/1247654636375551810/text-to-design-ai-ui-copilot-uidesign-ai",
+            "title": "Text To Design AI UI Copilot ",
+            "description": "To Generate UI Design with AI",
+            "category": "Plugin"
+        },
+        {
+            "id": 5,
+            "weblink": "https://www.figma.com/community/plugin/1350743748296105581/figr-identity-v2-generate-design-systems-quickly",
+            "title": "Generate Design Systems quickly ⭐",
+            "description": "Figma Identity is a Figma plugin that helps designers create and manage design systems",
+            "category": "Plugin"
+        },
+        {
+            "id": 5,
+            "weblink": "https://www.figma.com/community/plugin/742764242781786818/wireframe",
+            "title": "Wireframe⭐",
+            "description": "Wireframe plugin is the best Figma plugin for creating beautiful wireframes",
+            "category": "Wireframe"
+        },
+        {
+            "id": 5,
+            "weblink": "https://www.figma.com/community/plugin/742764242781786818/wireframe",
+            "title": "Wireframe⭐",
+            "description": "Wireframe plugin is the best Figma plugin for creating beautiful wireframes",
+            "category": "Wireframe"
+        },
+        {
+            "id": 6,
+            "weblink": "https://www.figma.com/community/file/1304881365343613949/checkout-and-account-components",
+            "title": "Flowbit:- Design System Shopify ",
+            "description": "Components used for Shopify checkout and account experiences. UI extensions let you and your team build custom functionality that merchants can install at defined targets in the checkout and account flow.",
+            "category": "Design system"
+        },
+        {
+            "id": 7,
+            "weblink": "https://www.figma.com/@elastic",
+            "title": "Flowbit:- Design System Elastic ",
+            "description": "Components used for Elastic ",
+            "category": "Design system"
+        },
+        {
+            "id": 8,
+            "weblink": "https://www.figma.com/community/file/913828647221574819",
+            "title": "Friday Design System ",
+            "description": "Friday Design System (FDS) is a Design System accelerator to help you accelerate the development and design efforts for a faster time",
+            "category": "Design system"
+        },
+        {
+            "id": 7,
+            "weblink": "https://www.figma.com/community/file/1118382734246097250",
+            "title": "Typography Guidlines",
+            "description": "Typography Guidlines",
+            "category": "Guidlines"
+        },
+        {
+            "id": 1,
+            "weblink": "https://www.justinmind.com/ui-design/principles",
+            "title": "UI Design Principles",
+            "description": "list of the top UI design principles that capture some of the most interesting faces of digital design. Check them out!",
+            "category": "UI/UX Principles"
+        },
+        {
+            "id": 2,
+            "weblink": "https://www.uxpeak.com/",
+            "title": "UX PEAK",
+            "description": "Top online UI/UX design course designed to jumpstart your career and teach you how to design beautiful apps and websites that users love.",
+            "category": "UI/UX Principles"
+        }
+    ],
+    "WEBSITETOOLS": [
+        {
+            "id": 1,
+            "weblink": "https://upperquad.com/services",
+            "title": "Upper QUAD",
+            "description": "website ",
+            "category": "Website"
+        },
+        {
+            "id": 2,
+            "weblink": "https://okcest.cool/",
+            "title": "okcest",
+            "description": "The world has new playgrounds of creativity. We help brands define strategies and craft experiences at the intersection of emerging technologies, cultures ands communities.",
+            "category": "Website"
+        },
+        {
+            "id": 3,
+            "weblink": "https://httpster.net/",
+            "title": "HTTPSTER",
+            "description": "Web design inspiration from all over the world",
+            "category": "Website"
+        },
+        {
+            "id": 4,
+            "weblink": "https://purepit.webflow.io/",
+            "title": "PURE PIT",
+            "description": "Web design inspiration from all over the world",
+            "category": "Website"
+        },
+        {
+            "id": 5,
+            "weblink": "https://refero.design/",
+            "title": "Refero",
+            "description": "Web design inspiration from all over the world",
+            "category": "Website"
+        },
+        {
+            "id": 4,
+            "weblink": "https://stacksorted.com",
+            "title": "Stack Sorted for Elements",
+            "description": "Web design inspiration from all over the world",
+            "category": "Website"
+        },
+        {
+            "id": 5,
+            "weblink": "https://www.awwwards.com/",
+            "title": "Awwards",
+            "description": "Web design inspiration from all over the world",
+            "category": "Website"
+        },
+        {
+            "id": 6,
+            "weblink": "https://www.awwwards.com/",
+            "title": "Awwards",
+            "description": "Web design inspiration from all over the world",
+            "category": "Website"
+        },
+        {
+            "id": 7,
+            "weblink": "https://www.darkmodedesign.com/",
+            "title": "Dark Mode Desings",
+            "description": "Web design inspiration from all over the world",
+            "category": "Website"
+        },
+        {
+            "id": 7,
+            "weblink": "https://minimal.gallery/",
+            "title": "Minimal Gallery",
+            "description": "Web design inspiration from all over the world",
+            "category": "Website"
+        },
+        {
+            "id": 7,
+            "weblink": "https://www.spacex.com/starshield/",
+            "title": "Spacex",
+            "description": "Web design inspiration from all over the world",
+            "category": "Website"
+        },
+        {
+            "id": 7,
+            "weblink": "https://www.starlink.com/",
+            "title": "Strlink",
+            "description": "Web design inspiration from all over the world",
+            "category": "Website"
+        }
+    ],
+    "PROMPT": [
+        {
+            "id": 1,
+            "weblink": "https://learnprompting.org/docs/basics/chatgpt_basics_prompt",
+            "title": "Learn Prompting",
+            "description": "PromptTools is an open-source library for experimenting with, testing, and evaluating prompts, LLMs, and vector databases.",
+            "category": "Prompting"
+        },
+        {
+            "id": 2,
+            "weblink": "https://prompttoolbox.com/",
+            "title": "Prompt Toolsbox",
+            "description": "list of the top UI design principles that capture some of the most interesting faces of digital design. Check them out!",
+            "category": "Prompting"
+        }
+    ],
+    "FONT": [
+        {
+            "id": 1,
+            "weblink": "https://www.designsystemsforfigma.com/?languages=React",
+            "title": "Poppins",
+            "description": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+            "descriptionTwo": "abcdefghijklmnopqrstuvwxy",
+            "numbers": "0123456789",
+            "category": "Design Systems",
+            "fontclass": "Poppins"
+        }
+    ],
+    "DESIGN": [
+        {
+            "id": 1,
+            "weblink": "  https://webflow.com/",
+            "title": "WEB FLOW",
+            "description": "As the first-ever website experience platform, Webflow lets marketers, designers, and developers come together to build, manage, and optimize web experiences that get results.",
+            "category": "Website Builder"
+        },
+        {
+            "id": 2,
+            "weblink": "  https://www.canva.com/en_in/",
+            "title": "CANVA",
+            "description": "Canva makes it easy to create and share professional designs.",
+            "category": "Desing Maker"
+        },
+        {
+            "id": 3,
+            "weblink": "https://www.dora.run/",
+            "title": "Dora",
+            "category": "3D Website Builder",
+            "description": "Start with AI, ship 3D animated sites with zero code"
+        }
+    ]
+}
