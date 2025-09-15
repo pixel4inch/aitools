@@ -9,10 +9,39 @@
     ],
     "INSPIRATIONS": [
         {
-            "id": 1,
-            "utubelink": "https://www.youtube.com/embed/Jo6jqYOG5SM?si=yMy1t-8neTZeV2AE",
-            "title": "The Power of CSS When Combination of Not And Hover Selectors",
-            "status": "done"
+           "id": 1,
+            "weblink": "https://minimal.gallery/",
+            "title": "Minimal Gallery ",
+            "description": "Plan & Simple Website ",
+            "category": "WebSite"
+        },
+         {
+           "id": 1,
+            "weblink": "https://www.cosmos.so/discover/ui-ux",
+            "title": "cosmos ",
+            "description": "Websit & Desings ",
+            "category": "UI/UX"
+        },
+         {
+           "id": 1,
+            "weblink": "https://www.unsection.com/",
+            "title": "unsection ",
+            "description": "Inspirations for Section ",
+            "category": "WebSite"
+        },
+         {
+           "id": 1,
+            "weblink": "https://www.supahero.io/",
+            "title": "SuperHero ",
+            "description": "Hero Section Inspirations ",
+            "category": "Hero"
+        },
+         {
+           "id": 1,
+            "weblink": "https://stacksorted.com/",
+            "title": "StackSorted",
+            "description": "Elements Inspration ",
+            "category": "Elements"
         }
     ],
     "GSAP": [
