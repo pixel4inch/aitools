@@ -56,7 +56,32 @@
             "title": "Saaspo",
             "description": "Sass Web Designs ",
             "category": "WebSite"
+        },
+        {
+           "id": 6,
+            "weblink": "https://mobbin.com/",
+            "title": "Mobbin",
+            "description": "Web Apps  Screen",
+            "category": "Web Apps"
+        },
+        {
+           "id": 6,
+            "weblink": "https://60fps.design/",
+            "title": "60fps",
+            "description": "Shorts, Apps, learn",
+            "category": "Apps"
+        },
+
+        {
+           "id": 6,
+            "weblink": "https://www.toools.design/ui-web-design-inspiration-websites#web",
+            "title": "Toools Design",
+            "description": "More Inspirations Tools",
+            "category": "More"
         }
+
+
+
     ],
     "GSAP": [
         {
